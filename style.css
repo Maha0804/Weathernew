@@ -133,37 +133,47 @@
 
 }
 @media only screen and (max-width: 550px) {
-    .contain-lg-4 {
-      max-width: 100%;
-      padding: 0;
-    }
-    .card {
-      margin-top: 10px;
-      width: 100%;
-    }
-    .search input {
-      width: 80%;
-      margin-right: 10px;
-    }
-    .search button {
-      width: 15%;
-    }
-    .details {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .details .col {
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    .details .col img {
-      width: 50%;
-    }
-    .wind
-    {
-      width: 140px;
-      height: 35px;
-    }
+  .contain-lg-4 {
+    max-width: 100%;
+    padding: 0;
   }
-  
+  .card {
+    margin-top: 10px;
+    width: 90%;
+    height: 85%;
+    margin-bottom: 20px;
+  }
+  .search input {
+    width: 80%;
+    margin-right: 10px;
+  }
+  .search button {
+    width: 25%;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .details .col {
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+  }
+  .details .col img {
+    width: 30%;
+  }
+ .wind
+  {
+    width: 120px;
+    height: 35px;
+    
+  } 
+  .weather-icon
+  {
+    width: 140px;
+  }
+}
